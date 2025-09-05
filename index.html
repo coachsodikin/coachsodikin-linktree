@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coach Sodikin — Profile & Contact</title>
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--accent:#10b981;--muted:#94a3b8;--text:#e6eef8}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:linear-gradient(180deg,#071023 0%, #081126 100%);color:var(--text);display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+    .container{width:100%;max-width:720px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);padding:28px;border-radius:14px;box-shadow:0 6px 30px rgba(2,6,23,.6)}
+    .hero{display:flex;gap:16px;align-items:center}
+    .avatar{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,rgba(255,255,255,0.03),rgba(255,255,255,0.02));display:flex;align-items:center;justify-content:center;font-weight:700;font-size:24px;color:var(--accent)}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:6px 0 14px;color:var(--muted);font-size:14px}
+    .bio{margin:12px 0 18px;padding:10px 12px;background:rgba(255,255,255,0.02);border-radius:8px;color:var(--muted);font-size:14px}
+    .buttons{display:grid;grid-template-columns:1fr;gap:10px}
+    a.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 14px;border-radius:10px;text-decoration:none;font-weight:600;background:linear-gradient(90deg,var(--accent),#06b6d4);color:#04201b}
+    a.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text)}
+    .small{font-size:13px;color:var(--muted);text-align:center;margin-top:12px}
+    .socials{display:flex;gap:10px;justify-content:center;margin-top:12px}
+    .socials a{color:var(--muted);text-decoration:none;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.02)}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    @media (min-width:640px){.buttons{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="hero">
+        <div class="avatar">CS</div>
+        <div style="flex:1">
+          <h1>Coach Sodikin, S.Pd</h1>
+          <p class="lead">Executive Consultant • Holistic Leadership • Trainer & Speaker</p>
+          <div class="bio">33+ tahun pengalaman. Telah berbicara kepada lebih dari 10.000 audiens sejak 2008. Spesialis: Leadership, Wellness, Thibb Nabawi, Network Marketing.</div>
+        </div>
+      </div>
+
+      <div class="buttons" style="margin-top:8px">
+        <a class="btn" href="mailto:coachsodikin@gmail.com">✉️ Email coachsodikin@gmail.com</a>
+        <a class="btn" href="https://wa.me/6281388459845" target="_blank">📱 WhatsApp +62 813 8845 9845</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/coach-sodikin-b4928789" target="_blank">💼 LinkedIn</a>
+        <a class="btn ghost" href="https://instagram.com/coachsodikin" target="_blank">📷 Instagram @coachsodikin</a>
+        <a class="btn ghost" href="https://www.tiktok.com/@coachsodikin" target="_blank">🎬 TikTok @coachsodikin</a>
+        <a class="btn ghost" href="#" id="downloadCV">📄 Download CV (PDF)</a>
+      </div>
+
+      <div class="small">Untuk penawaran training, seminar, atau konsultasi — hubungi via email atau WhatsApp.</div>
+
+      <div class="socials" style="margin-top:14px">
+        <a href="https://instagram.com/coachsodikin" target="_blank">IG</a>
+        <a href="https://www.tiktok.com/@coachsodikin" target="_blank">TikTok</a>
+        <a href="https://www.linkedin.com/in/coach-sodikin-b4928789" target="_blank">LinkedIn</a>
+      </div>
+
+      <footer>Depok, Indonesia • Coach Sodikin, S.Pd</footer>
+    </div>
+  </div>
+
+  <script>
+    // Placeholder: attach real CV file if available
+    document.getElementById('downloadCV').addEventListener('click', function(e){
+      e.preventDefault();
+      alert('Jika Anda mau, saya bisa membuat file PDF CV siap unduh. Beri tahu saya agar saya ekspor ke file.');
+    });
+  </script>
+</body>
+</html>
